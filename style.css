@@ -209,6 +209,12 @@ footer > p{
 .insta:hover{
     color: rgb(88, 81, 219);
 }
+.twitter:hover{
+    color: #007bff;
+}
+.githud:hover{
+    color: #000;
+}
 .footer-bottom p {
     margin: 0;
     font-size: 14px;
