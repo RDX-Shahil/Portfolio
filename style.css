@@ -31,6 +31,10 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+  overflow: hidden;
+  position: sticky; /* This makes the navbar sticky */
+  top: 0; /* Position at the top */
+  z-index: 1000; 
 }
 
 .nav-logo {
