@@ -31,11 +31,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  /* overflow: hidden;
-  position: sticky;
-  /* This makes the navbar sticky */
   top: 0;
-  /* Position at the top */
   z-index: 1000; 
 }
 
@@ -70,21 +66,14 @@ nav {
 
 .circle-container {
   width: 110px;
-  /* Adjust size as needed */
-  /* height: 200px; */
-  /* Adjust size as needed */
   border-radius: 50%;
-  /* Creates a circular shape */
   overflow: hidden;
-  /* Hides the parts of the image outside the circle */
   position: relative;
 }
 
 .circle-container img {
   width: 100%;
-  /* height: 100%; */
   object-fit: cover;
-  /* Ensures the image covers the entire container */
 }
 
 /* Rectangle inside the circle */
@@ -95,13 +84,7 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  /* Adjust width as needed */
-  /* height: 70%; */
-  /* Adjust height as needed */
-  /* background-color: rgba(255, 255, 255, 0.7); */
-  /* Adjust background color and opacity as needed */
   z-index: 1;
-  /* Ensures rectangle is behind the image */
 }
 
 .link a:hover::after {
